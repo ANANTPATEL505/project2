@@ -42,11 +42,13 @@ h2{
     height: 150px;
 }
 .c1{
+    margin-left:auto;
+    margin-right: auto; 
     padding: 3% 0 1% 0;
-   margin-left: 35%;
+    margin-left: 35%;
     display: grid;
     grid-template-columns:repeat(auto-fit,minmax(110px,120px));
-    text-align: center;
+    justify-content: center;
     
 }
 .flink{
